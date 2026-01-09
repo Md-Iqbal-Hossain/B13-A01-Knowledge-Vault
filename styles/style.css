@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*shared style*/
+.font-inter{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/*main style*/
+nav{
+    width: 1600px;
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.logo{
+    margin: 16px 345px 16px 120px;
+}
+nav .menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 32px;
+}
+nav .menu a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+nav .btn-container{
+    margin: 24px 120px 24px 345px;
+    width: 164px;
+}
+nav .btn{
+    background-color: #30B868;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+/* banner style */
+#banner{
+    background: url(../assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .early p{
+    background: rgba(255, 255, 255, 1);
+    width: 229px;
+    height: 35px;
+    color: #30B868;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto ;
+}
+#banner h1{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 72px;
+}
+#banner h1 span{
+    color: #30B868;
+}
+#banner .para p{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    line-height: 24px;
+}
+#banner .btn{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+#banner #btn-a{
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-weight: 600;
+    font-size: 16px;
+}
+#banner #btn-b{
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-weight: 600;
+    font-size: 16px;
+}
