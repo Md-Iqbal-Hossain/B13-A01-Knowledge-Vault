@@ -10,14 +10,15 @@
   font-optical-sizing: auto;
 }
 
-/*main style*/
+/*header style*/
+/* nav style */
 nav{
     width: 1600px;
     height: 92px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .logo{
     margin: 16px 345px 16px 120px;
@@ -53,6 +54,7 @@ nav .btn{
     background: url(../assets/hero-bg.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -119,3 +121,67 @@ nav .btn{
     font-weight: 600;
     font-size: 16px;
 }
+
+/* Main style */
+/* sec-a style */
+#sec-a{
+    height: 448px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: rgba(255, 235, 205, 0.163);
+}
+#sec-a .notes{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+#sec-a .you{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec-a .card-par{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding-top: 50px;
+}
+#sec-a .chi-a, #sec-a .chi-b, #sec-a .chi-c, #sec-a .chi-d{
+    background: white;
+    width: 322px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 8px;
+}
+#sec-a .chi-a img, #sec-a .chi-b img, #sec-a .chi-c img, #sec-a .chi-d img{
+    background-color: #F95555;
+    padding: 10px;
+    height: max-content;
+    border-radius: 50%;
+}
+#sec-a .chi-a h1, #sec-a .chi-b h1, #sec-a .chi-c h1, #sec-a .chi-d h1{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px;
+}
+#sec-a .chi-a p, #sec-a .chi-b p, #sec-a .chi-c p, #sec-a .chi-d p{
+    color: #627382;
+    margin: 16px 24px 70px;
+    text-align: center;
+}
+
+
