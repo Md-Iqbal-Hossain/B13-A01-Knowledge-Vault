@@ -18,6 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1600px;
     /* border: 1px solid black; */
 }
 .logo{
@@ -51,6 +52,7 @@ nav .btn{
 
 /* banner style */
 #banner{
+    max-width: 1600px;
     background: url(../assets/hero-bg.png);
     background-position: center;
     background-size: cover;
@@ -131,6 +133,7 @@ nav .btn{
     align-items: center;
     gap: 16px;
     background-color: rgba(255, 235, 205, 0.163);
+    max-width: 1600px;
 }
 #sec-a .notes{
     display: flex;
@@ -182,6 +185,54 @@ nav .btn{
     color: #627382;
     margin: 16px 24px 70px;
     text-align: center;
+}
+
+/*sec b style*/
+#sec-b .container{
+    height: 840px;
+    width: 1360px;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 90px;
+}
+#sec-b .aus-a img{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+}
+#sec-b .the{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+
+}
+#sec-b h1{
+    text-align: left;
+    line-height: 58px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+#sec-b .person{
+    margin-top: 16px;
+    color: #627382;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#sec-b .capture{
+    margin-top: 40px;
+    list-style: none;
+}
+
+#sec-b .capture li{
+    display: flex;
+    padding-bottom: 16px;
 }
 
 
