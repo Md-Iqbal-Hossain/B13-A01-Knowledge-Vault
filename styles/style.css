@@ -13,12 +13,12 @@
 /*header style*/
 /* nav style */
 nav{
-    width: 1600px;
+    max-width: 1600px;
     height: 92px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1600px;
+    width: 100%;
     /* border: 1px solid black; */
 }
 .logo{
@@ -34,13 +34,16 @@ nav .menu a{
     font-size: 16px;
     text-decoration: none;
     color: #000000;
+    white-space: nowrap;
 }
 nav .btn-container{
     margin: 24px 120px 24px 345px;
     width: 164px;
+    display: inline;
 }
 nav .btn{
     background-color: #30B868;
+    display: inline-block;
     border: none;
     padding: 12.5px 16px;
     border-radius: 4px;
@@ -48,11 +51,13 @@ nav .btn{
     font-weight: 600;
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
+    white-space: nowrap;
 }
 
 /* banner style */
 #banner{
-    max-width: 1600px;
+    width: 1600px;
+    max-width: 100%;
     background: url(../assets/hero-bg.png);
     background-position: center;
     background-size: cover;
@@ -134,6 +139,7 @@ nav .btn{
     gap: 16px;
     background-color: rgba(255, 235, 205, 0.163);
     max-width: 1600px;
+    width: 100%;
 }
 #sec-a .notes{
     display: flex;
@@ -188,6 +194,14 @@ nav .btn{
 }
 
 /*sec b style*/
+#sec-b{
+    max-width: 1600px;
+    width: 100%;
+    /* padding: 0 120px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
 #sec-b .container{
     height: 840px;
     width: 1360px;
@@ -196,13 +210,16 @@ nav .btn{
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    padding: 90px;
+    /* padding-right: 50px; */
+    /* padding: 90px; */
 }
+
 #sec-b .aus-a img{
     height: 600px;
     width: 600px;
     border-radius: 12px;
 }
+
 #sec-b .the{
     font-size: 16px;
     font-weight: 500;
@@ -233,6 +250,78 @@ nav .btn{
 #sec-b .capture li{
     display: flex;
     padding-bottom: 16px;
+}
+#sec-b .aus-b{
+    padding-right: 120px;
+}
+#sec-b .capture li span{
+    padding-left: 6px;
+}
+
+/* Challenge section */
+#cha{
+    /* width: 1360px; */
+    width: 100%;
+    max-width: 1600px;
+    height: 506px;
+    /* padding: 2px 120px 120px 120px; */
+    
+}
+#cha .cha-container{
+    /* margin: 120px 2px 120px 120px; */
+    background-color: #F7F6F2;
+    border: 2px solid black;
+    width: 1360px;
+    max-width: 1600px;
+    height: 384px;
+    /* max-width: 1360px; */
+    margin: 0 auto;
+}
+#cha h2{
+    text-align: center;
+    margin-top: 80px;
+    color: rgba(0, 25, 49, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+#cha .join{
+    margin-top: 16px;
+    color: #627382;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#cha button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7F6F2;
+    background-color: #30B868;
+}
+#cha .b{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+#cha button{
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+}
+#cha .free{
+    text-align: center;
+    margin-top: 16px;
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
