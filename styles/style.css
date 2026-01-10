@@ -53,6 +53,10 @@ nav .btn{
     cursor: pointer;
     white-space: nowrap;
 }
+nav .btn:hover{
+    font-size: 20px;
+    background-color: #dd0707;
+}
 
 /* banner style */
 #banner{
@@ -78,6 +82,9 @@ nav .btn{
     justify-content: center;
     align-items: center;
     margin: 0 auto ;
+}
+#banner .early p:hover{
+    background-color: #627382;
 }
 #banner h1{
     display: flex;
@@ -114,6 +121,11 @@ nav .btn{
     padding: 16px;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
+}
+#banner #btn-a:hover{
+    font-size: 20px;
+    background-color: #dd0707;
 }
 #banner #btn-b{
     background: none;
@@ -127,6 +139,11 @@ nav .btn{
     padding: 16px;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
+}
+#banner #btn-b:hover{
+    font-size: 20px;
+    background-color: #dd0707;
 }
 
 /* Main style */
@@ -164,6 +181,7 @@ nav .btn{
     align-items: center;
     gap: 24px;
     padding-top: 50px;
+    
 }
 #sec-a .chi-a, #sec-a .chi-b, #sec-a .chi-c, #sec-a .chi-d{
     background: white;
@@ -174,6 +192,9 @@ nav .btn{
     justify-content: center;
     align-items:center;
     border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 8px #00000025;
+    cursor: pointer;
 }
 #sec-a .chi-a img, #sec-a .chi-b img, #sec-a .chi-c img, #sec-a .chi-d img{
     background-color: #F95555;
@@ -271,7 +292,7 @@ nav .btn{
 #cha .cha-container{
     /* margin: 120px 2px 120px 120px; */
     background-color: #F7F6F2;
-
+    border-radius: 12px;
     width: 1360px;
     max-width: 1600px;
     height: 384px;
@@ -297,17 +318,6 @@ nav .btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #F7F6F2;
-    background-color: #30B868;
-}
-#cha .b{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 24px;
-}
-#cha button{
     background-color: #30B868;
     border: none;
     border-radius: 4px;
@@ -316,6 +326,18 @@ nav .btn{
     font-size: 16px;
     font-weight: 600;
     padding: 16px;
+    cursor: pointer;
+}
+#cha .b{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+#cha button:hover{
+    background-color: #dd0707;
+    font-size: 20px;
 }
 #cha .free{
     text-align: center;
@@ -356,6 +378,13 @@ nav .btn{
     height: 64px;
     color: white;
 }
+#foot .s-img .x, .i, .f{
+    cursor: pointer;
+}
+#foot .s-img .x:hover,.i:hover,.f:hover {
+    font-size: 20px;
+    color: #1da1f2;
+}
 
 #foot hr{
     border: none;
@@ -367,5 +396,7 @@ nav .btn{
     color: #F7F6F2;
     margin-top: 30px;
 }
+
+
 
 
